@@ -9,10 +9,6 @@ pipeline {
                 bat 'npm install'
             }
         }
-        stage('Test') {
-            steps {
-                bat '\simple-node-js-react-npm-app-master\jenkins\scripts/test.sh' 
-                }
-        }
+    
     }
 }
