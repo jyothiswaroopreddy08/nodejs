@@ -11,7 +11,8 @@ pipeline {
         }
         stage('Test') {
             steps {
-            bat 'D:\DevOps workspace\simple-node-js-react-npm-app-master\jenkins\scripts/test.sh'                    }
+                bat '\simple-node-js-react-npm-app-master\jenkins\scripts/test.sh' 
                 }
+        }
     }
 }
